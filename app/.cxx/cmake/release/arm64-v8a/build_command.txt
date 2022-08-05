@@ -1,0 +1,22 @@
+                Executable : /Users/gxb/Downloads/android-sdks/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app
+-DCMAKE_CXX_FLAGS=-std=c++11 -frtti -fexceptions -fopenmp
+-DCMAKE_FIND_ROOT_PATH=/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/prefab/arm64-v8a/prefab
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_TOOLCHAIN_FILE=/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462/build/cmake/android.toolchain.cmake
+-DANDROID_ABI=arm64-v8a
+-DANDROID_NDK=/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462
+-DANDROID_PLATFORM=android-24
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DCMAKE_ANDROID_NDK=/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/build/intermediates/cmake/release/obj/arm64-v8a
+-DCMAKE_MAKE_PROGRAM=/Users/gxb/Downloads/android-sdks/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=24
+-B/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/arm64-v8a
+-GNinja
+jvmArgs : 
+
+Build command args:

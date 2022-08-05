@@ -1,0 +1,612 @@
+{
+  "stringTable": {
+    "0": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android24 --gcc-toolchain=/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/ORB/include -I../../../../src/main/cpp/ORB -I../../../../src/main/cpp/Eigen -I../../../../src/main/cpp/Eigen/src -isystem /home/dev/workspace/repositories/opencv-3.2.0-android-prebuilts.git/opencv-3.2.0-android-25-arm64-v8a/release -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/include/opencv -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/core/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/flann/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/imgproc/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/ml/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/photo/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/video/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/imgcodecs/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/shape/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videoio/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/objdetect/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/superres/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/ts/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/features2d/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/calib3d/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/stitching/include -isystem /home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videostab/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -fopenmp -std=c++11 -fopenmp -O2 -DNDEBUG -fPIC",
+    "2": "--target=aarch64-none-linux-android24 --gcc-toolchain=/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../src/main/cpp -I../../../../src/main/cpp/ORB/include -I../../../../src/main/cpp/ORB -I../../../../src/main/cpp/Eigen -I../../../../src/main/cpp/Eigen/src -I/home/dev/workspace/repositories/opencv-3.2.0-android-prebuilts.git/opencv-3.2.0-android-25-arm64-v8a/release -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/include/opencv -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/core/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/flann/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/imgproc/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/ml/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/photo/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/video/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/imgcodecs/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/shape/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videoio/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/objdetect/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/superres/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/ts/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/features2d/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/calib3d/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/stitching/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videostab/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -fopenmp -std=c++11 -fopenmp -O2 -DNDEBUG -fPIC",
+    "3": "--target=aarch64-none-linux-android24 --gcc-toolchain=/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../src/main/cpp -I../../../../src/main/cpp/ORB/include -I../../../../src/main/cpp/ORB -I../../../../src/main/cpp/Eigen -I../../../../src/main/cpp/Eigen/src -I/home/dev/workspace/repositories/opencv-3.2.0-android-prebuilts.git/opencv-3.2.0-android-25-arm64-v8a/release -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/include/opencv -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/core/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/flann/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/imgproc/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/ml/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/photo/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/video/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/imgcodecs/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/shape/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videoio/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/highgui/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/objdetect/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/superres/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/ts/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/features2d/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/calib3d/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/stitching/include -I/home/dev/workspace/repositories/opencv-3.2.0/opencv-3.2.0/modules/videostab/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/home/dev/workspace/repositories/opencv-3.2.0-android-prebuilts.git/opencv-3.2.0-android-25-arm64-v8a/Release/OpenCVConfig-version.cmake",
+    "/home/dev/workspace/repositories/opencv-3.2.0-android-prebuilts.git/opencv-3.2.0-android-25-arm64-v8a/Release/OpenCVConfig.cmake",
+    "/home/dev/workspace/repositories/opencv-3.2.0-android-prebuilts.git/opencv-3.2.0-android-25-arm64-v8a/Release/OpenCVModules.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/gxb/Downloads/android-sdks/cmake/3.10.2.4988404/bin/ninja -C \"/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/gxb/Downloads/android-sdks/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "g2o-Release-arm64-v8a": {
+      "buildCommand": "/Users/gxb/Downloads/android-sdks/cmake/3.10.2.4988404/bin/ninja -C \"/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/arm64-v8a\" g2o",
+      "buildType": "release",
+      "toolchain": "441485730",
+      "abi": "arm64-v8a",
+      "artifactName": "g2o",
+      "files": [
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/os_specific.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/types/types_sba.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/hyper_graph.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/matrix_structure.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/batch_stats.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/parameter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/cache.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimizable_graph.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/solver.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/estimate_propagator.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/factory.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/parameter_container.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/robust_kernel.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/timeutil.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/string_tools.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/property.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/types/types_sba.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/types/se3quat.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/types/se3_ops.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/types/se3_ops.hpp",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_edge.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_binary_edge.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_binary_edge.hpp",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/hyper_graph_action.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_multi_edge.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_multi_edge.hpp",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/hyper_graph.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_unary_edge.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/linear_solver.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_unary_edge.hpp",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_vertex.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_vertex.hpp",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/matrix_structure.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/batch_stats.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/openmp_mutex.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/block_solver.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/block_solver.hpp",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/parameter.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/cache.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimizable_graph.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/solver.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/creators.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/estimate_propagator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_property.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/factory.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/sparse_block_matrix.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/sparse_optimizer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/hyper_dijkstra.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/parameter_container.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/jacobian_workspace.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/robust_kernel.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/robust_kernel_factory.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/core/robust_kernel_impl.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/string_tools.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/color_macros.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/macros.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/misc.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/timeutil.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/os_specific.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/property.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/arm64-v8a/libg2o.a"
+    },
+    "DBoW2-Release-arm64-v8a": {
+      "buildCommand": "/Users/gxb/Downloads/android-sdks/cmake/3.10.2.4988404/bin/ninja -C \"/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/arm64-v8a\" DBoW2",
+      "buildType": "release",
+      "toolchain": "441485730",
+      "abi": "arm64-v8a",
+      "artifactName": "DBoW2",
+      "files": [
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/BowVector.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/FORB.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DUtils/Random.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DUtils/Timestamp.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/BowVector.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/FORB.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/FClass.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/FeatureVector.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/ScoringObject.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DUtils/Random.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/Thirdparty/DBoW2/DUtils/Timestamp.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/arm64-v8a/libDBoW2.a"
+    },
+    "native-lib-Release-arm64-v8a": {
+      "buildCommand": "/Users/gxb/Downloads/android-sdks/cmake/3.10.2.4988404/bin/ninja -C \"/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/arm64-v8a\" native-lib",
+      "buildType": "release",
+      "toolchain": "441485730",
+      "abi": "arm64-v8a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/Plane.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/Frame.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/Marker.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/Process.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/Camera.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+      "runtimeFiles": []
+    },
+    "ORBSLAM2-Release-arm64-v8a": {
+      "buildCommand": "/Users/gxb/Downloads/android-sdks/cmake/3.10.2.4988404/bin/ninja -C \"/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/arm64-v8a\" ORBSLAM2",
+      "buildType": "release",
+      "toolchain": "441485730",
+      "abi": "arm64-v8a",
+      "artifactName": "ORBSLAM2",
+      "files": [
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/System.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/Tracking.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/LocalMapping.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/LoopClosing.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/ORBextractor.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/ORBmatcher.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/FrameDrawer.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/Converter.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/MapPoint.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/KeyFrame.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/Map.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/Optimizer.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/PnPsolver.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/Frame.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/KeyFrameDatabase.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/Sim3Solver.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/src/main/cpp/ORB/src/Initializer.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/arm64-v8a/libORBSLAM2.a"
+    }
+  },
+  "toolchains": {
+    "441485730": {
+      "cCompilerExecutable": "/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/gxb/Downloads/android-sdks/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}

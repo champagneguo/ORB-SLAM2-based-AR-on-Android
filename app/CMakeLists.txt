@@ -178,6 +178,8 @@ target_link_libraries(ORBSLAM2
 # OpenCV 3.2.0 prebuilts for Android with LLVM C++ runtime available for download
 # on: https://github.com/maximaging/opencv-3.2.0-android-prebuilts.git
 set(OpenCV_DIR /home/dev/workspace/repositories/opencv-3.2.0-android-prebuilts.git/opencv-3.2.0-android-25-arm64-v8a/${CMAKE_BUILD_TYPE})
+#set(OpenCV_DIR /Users/gxb/sina/xiangbin1/opencv-3.2.0-android-prebuilts/opencv-3.2.0-android-25-arm64-v8a/${CMAKE_BUILD_TYPE})
+
 
 # Retrieve OpenCV_INCLUDE_DIRS and OpenCV_LIBS variables from OpenCVConfig.cmake
 find_package(OpenCV REQUIRED)

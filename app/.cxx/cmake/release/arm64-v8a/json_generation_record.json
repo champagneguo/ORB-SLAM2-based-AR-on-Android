@@ -1,0 +1,572 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 24 min SDK version: arm64-v8a",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/add-ons/addon-google_apis-google-14/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/add-ons/addon-google_apis-google-15/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/add-ons/addon-google_apis-google-16/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/add-ons/addon-google_apis-google-17/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/add-ons/addon-google_apis-google-18/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/add-ons/addon-google_apis-google-19-1/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "WARN",
+    "message": "Observed package id \u0027add-ons;addon-google_apis-google-19\u0027 in inconsistent location \u0027/Users/gxb/Downloads/android-sdks/add-ons/addon-google_apis-google-19-1\u0027 (Expected \u0027/Users/gxb/Downloads/android-sdks/add-ons/addon-google_apis-google-19\u0027)",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/add-ons/addon-google_apis-google-21/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/add-ons/addon-google_apis-google-22/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/add-ons/addon-google_apis_x86-google-19/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/add-ons/addon-google_gdk-google-19/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/17.0.0/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/18.0.1/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/18.1.0/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/18.1.1/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/19.0.0/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/19.0.1/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/19.0.2/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/19.0.3/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/19.1.0/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/20.0.0/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/21.1.2/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/22.0.1/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/23.0.1/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/23.0.2/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/23.0.3/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/24.0.0/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/24.0.1/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/24.0.2/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/25.0.0/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/25.0.2/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/25.0.3/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/26.0.0/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/26.0.1/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/26.0.2/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/26.0.3/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/27.0.0/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/27.0.2/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/27.0.3/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/28.0.3/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/29.0.2/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/29.0.3/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/build-tools/30.0.1/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/cmake/3.10.2.4988404/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/cmake/3.6.3155560/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing legacy package: /Users/gxb/Downloads/android-sdks/cmake/3.6.4111459",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/docs/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/emulator/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/android/m2repository/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/android/support/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/google/google_play_services/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/google/m2repository/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/google/play_apk_expansion/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/google/play_billing/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/google/play_licensing/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/google/simulators/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/google/webdriver/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/intel/Hardware_Accelerated_Execution_Manager/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.1/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/m2repository/com/android/support/constraint/constraint-layout/1.0.1/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/extras/m2repository/com/android/support/constraint/constraint-layout/1.0.2/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/lldb/2.3/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/lldb/3.1/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/ndk-bundle/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/ndk/21.1.6352462/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/patcher/v4/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platform-tools/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-14/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-15/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-16/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-17/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-18/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-19/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-20/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-21/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-22/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-23/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-24/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-25/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-26/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-27/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-28/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-29/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/platforms/android-30/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/sources/android-28/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/sources/android-29/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /Users/gxb/Downloads/android-sdks/tools/package.xml",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027/Users/gxb/Downloads/android-sdks/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "CMake \u00273.6.3155560\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json\u0027 was up-to-date",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  }
+]
