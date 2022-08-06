@@ -173,6 +173,7 @@ target_link_libraries(ORBSLAM2
                         g2o
                        ${EIGEN3_LIBS})
 
+
 # Set the location of the OpenCV 3.2.0 builts
 # (STL type: c++_static, Android ABI: arm64-v8a, release and debug modes)
 # OpenCV 3.2.0 prebuilts for Android with LLVM C++ runtime available for download

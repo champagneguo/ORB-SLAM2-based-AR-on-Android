@@ -1,6 +1,0 @@
-/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
-/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/native-lib.dir
-/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
-/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/ORBSLAM2.dir
-/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/DBoW2.dir
-/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/g2o.dir

@@ -6,7 +6,9 @@ import android.content.pm.PackageManager;
 import android.graphics.PixelFormat;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
+import com.werb.permissionschecker.PermissionChecker;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -38,6 +40,11 @@ public class OrbTest extends Activity implements CameraBridgeViewBase.CvCameraVi
     private TextView myTextView;
     public static double SCALE = 1;
     private static long count = 0;
+    private PermissionChecker permissionChecker;
+    static final String[] PERMISSIONS = new String[]{
+            Manifest.permission.CAMERA,
+            Manifest.permission.WRITE_EXTERNAL_STORAGE
+    };
 
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
@@ -64,6 +71,13 @@ public class OrbTest extends Activity implements CameraBridgeViewBase.CvCameraVi
     @Override
     public void onCreate(Bundle savedInstanceState) {
         Log.i(TAG, "called onCreate");
+        permissionChecker = new PermissionChecker(this);
+        permissionChecker.setTitle(getString(R.string.check_info_title));
+        permissionChecker.setMessage(getString(R.string.check_info_message));
+        if (permissionChecker.isLackPermissions(PERMISSIONS)) {
+            permissionChecker.requestPermissions();
+            Log.e(TAG, "isLackPermissions");
+        }
         MatrixState.set_projection_matrix(445f, 445f, 319.5f, 239.500000f, 850, 480, 0.01f, 100f);
         super.onCreate(savedInstanceState);
         //hide the status bar
@@ -202,8 +216,9 @@ public class OrbTest extends Activity implements CameraBridgeViewBase.CvCameraVi
      */
     public Mat onCameraFrame(CameraBridgeViewBase.CvCameraViewFrame inputFrame) {
         Mat rgb = inputFrame.rgba();
+        System.out.println("获取native地址："+rgb.getNativeObjAddr());
         float[] poseMatrix = CVTest(rgb.getNativeObjAddr()); //从slam系统获得相机位姿矩阵
-
+        System.out.println("poseMatrix长度："+poseMatrix.length);
         if (poseMatrix.length != 0) {
             double[][] pose = new double[4][4];
             System.out.println("one posematrix is below========");
@@ -271,6 +286,10 @@ public class OrbTest extends Activity implements CameraBridgeViewBase.CvCameraVi
                 Manifest.permission.READ_EXTERNAL_STORAGE,
                 Manifest.permission.WRITE_EXTERNAL_STORAGE
         };
+        int REQUEST_CAMERA = 2;
+        String[] PERMISSIONS_CAMERA = {
+                Manifest.permission.CAMERA
+        };
         int permission = ActivityCompat.checkSelfPermission(OrbTest.this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
 
         if (permission != PackageManager.PERMISSION_GRANTED) {
@@ -281,6 +300,9 @@ public class OrbTest extends Activity implements CameraBridgeViewBase.CvCameraVi
                     REQUEST_EXTERNAL_STORAGE
             );
         }
+
+
+
         FileInputStream fis = new FileInputStream(new File(strFileName));
         StringBuffer sBuffer = new StringBuffer();
         DataInputStream dataIO = new DataInputStream(fis);
@@ -317,5 +339,20 @@ public class OrbTest extends Activity implements CameraBridgeViewBase.CvCameraVi
 
         }
     };
+
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        Log.e(TAG, "onRequestPermissionsResult:grantResults:" + grantResults);
+        switch (requestCode) {
+            case PermissionChecker.PERMISSION_REQUEST_CODE:
+                if (permissionChecker.hasAllPermissionsGranted(grantResults)) {
+
+                } else {
+                    permissionChecker.showDialog();
+                }
+                break;
+        }
+    }
 
 }

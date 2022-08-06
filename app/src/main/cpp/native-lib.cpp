@@ -72,7 +72,7 @@ Java_com_example_ys_orbtest_OrbTest_CVTest(JNIEnv *env, jobject instance, jlong 
         LOGI("SLAM system loaded voc and calib data.");
     }
 
-    //LOGI("Native Start");
+    LOGI("Native Start");
     cv::Mat *pMat = (cv::Mat*)matAddr;
 
     std::chrono::steady_clock::time_point t1 = std::chrono::steady_clock::now();
@@ -81,7 +81,7 @@ Java_com_example_ys_orbtest_OrbTest_CVTest(JNIEnv *env, jobject instance, jlong 
     clock_t start,end;
     start=clock();
 
-    //LOGI("new frame come here===============");
+    LOGI("new frame come here===============");
     //ttrack 表示帧号
     cv::Mat pose = SLAM->TrackMonocular(*pMat,ttrack);
     end = clock();
@@ -95,6 +95,7 @@ Java_com_example_ys_orbtest_OrbTest_CVTest(JNIEnv *env, jobject instance, jlong 
     }
 
     if(!pose.empty()){
+        LOGI("===###====pose not empty========");
 //        if(markerDetected == false){
 //            Process process(pMat);
 //            markerDetected = process.Run();
@@ -146,6 +147,7 @@ Java_com_example_ys_orbtest_OrbTest_CVTest(JNIEnv *env, jobject instance, jlong 
 //
 //        }
         if (vpMPs.size() > 0) {
+            LOGI("===###====vpMPs not empty========");
             std::vector<cv::Point3f> allmappoints;
             for (size_t i = 0; i < vpMPs.size(); i++) {
                 if (vpMPs[i]) {
@@ -271,7 +273,7 @@ Java_com_example_ys_orbtest_OrbTest_CVTest(JNIEnv *env, jobject instance, jlong 
         default:break;
     }
 
-
+    LOGI("===###====GetTrackingState End========");
     /**将得到的相机位姿矩阵返回到java代码，以便后面更新opengl相机位姿**/
     cv::Mat ima=pose;
     jfloatArray resultArray = env->NewFloatArray(ima.rows * ima.cols);

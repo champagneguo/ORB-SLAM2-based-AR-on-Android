@@ -1,2 +1,0 @@
-ninja: Entering directory `/Users/gxb/sina/xiangbin1/ORB-SLAM2-based-AR-on-Android/app/.cxx/cmake/debug/arm64-v8a'
-ninja: no work to do.
